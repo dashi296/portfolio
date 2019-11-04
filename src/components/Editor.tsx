@@ -9,8 +9,7 @@ const useStyles = makeStyles((theme: Theme) =>
     root: {
       color: 'white',
       backgroundColor: '#171717',
-      //width: 'auto',
-      height: '27.5vh',
+      height: '25vh',
       padding: '1.0em',
       overflowY: 'scroll',
     },

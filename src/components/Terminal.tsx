@@ -15,7 +15,6 @@ const useStyles = makeStyles((theme: Theme) =>
     root: {
       color: '#ffffff',
       backgroundColor: '#171717',
-      //width: 'auto',
       height: '70vh',
 
       padding: '0 1em',
@@ -83,13 +82,11 @@ const Terminal: FC<TerminalProps> = ({
   };
 
   useEffect(() => {
-    console.log("scroll!!")
     scroller.scrollTo('terminalBottom', {
       delay: 0,
       containerId: 'terminal'
     });
   }, [prevTerminalText])
-
 
   return (
     <div className={classes.root}>
@@ -124,8 +121,6 @@ const TerminalInput: FC<ITerminalInputProps> = ({
   updateTerminal,
 }) => {
   const classes = useStyles();
-
-
   return (
     <>
       {isSetting ?

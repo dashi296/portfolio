@@ -15,12 +15,11 @@ const menuList: string[] = ["profile", "skills", "products", "contact"];
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
-      //width: '100%',
-      height: '97.5vh',
+      height: '95vh',
       backgroundColor: '#1C1C1C',
       overflowY: 'scroll',
       [theme.breakpoints.down('xs')]: {
-        height: '27.5vh',
+        height: '25vh',
       }
     },
     wsMenuItem: {

@@ -7,6 +7,7 @@ import Header from './components/Header';
 import TopNav from './containers/TopNav';
 import Editor from './containers/Editor';
 import Terminal from './containers/Terminal';
+import Footer from './components/Footer';
 
 import Grid from '@material-ui/core/Grid';
 import Hidden from '@material-ui/core/Hidden';
@@ -23,9 +24,12 @@ const App: FC = () => {
           <TopNav />
         </Grid>
         <Grid item xs={12} sm={10}>
-          <Hidden xsDown><Editor /></Hidden>
+          <Hidden xsDown>
+            <Editor />
+          </Hidden>
           <Terminal />
         </Grid>
+        <Footer />
       </Grid>
     </Grid>
   );
