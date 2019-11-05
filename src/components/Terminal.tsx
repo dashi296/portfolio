@@ -74,10 +74,10 @@ const Terminal: FC<TerminalProps> = ({
 
   const TERMINAL_PHRASE = "dashi-MBP:portfolio dashi$ ";
 
-  const [tab, setTab] = useState(0)
+  const [tab, setTab] = useState(3)
 
   const handleChange = (event: React.ChangeEvent<{}>, newValue: number) => {
-    setTab(newValue);
+    //setTab(4);
   };
 
   useEffect(() => {

@@ -43,7 +43,7 @@ const EditorData: Record<string, string> = {
 
     private
       def profile_image
-        Catpix::print_image '/Users/shun/pictures/profile.png',
+        Catpix::print_image '/Users/dashi/pictures/profile.png',
           limit_x: 0.5,
           limit_y: 0,
           resolution: "high"
@@ -156,13 +156,13 @@ const EditorData: Record<string, string> = {
   end
 
   twesume = Product.new(title: "TWESUME ~ みんなのTwitter履歴書 ~",
-    image: "/Users/shun/downloads/birds.png",
+    image: "/Users/dashi/pictures/twesume.png",
     backend: ["Rails", "Heroku"],
     frontend: ["jQuery", "Bootstrap", "html2canvas"],
     description: "ポートフォリオでアピールするTwitter転職支援サービス")
 
   draftbox = Product.new(title: "DraftBox",
-    image: "/Users/shun/downloads/birds.png",
+    image: "/Users/dashi/pictures/draftbox.png",
     backend: ["Rails", "Heroku"],
     frontend: ["jQuery", "Marked.js"],
     description: "オンラインMarkdownメモサービス")
