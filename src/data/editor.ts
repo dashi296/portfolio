@@ -155,19 +155,18 @@ const EditorData: Record<string, string> = {
 
   end
 
-  twesume = Product.new(title: "TWESUME ~ みんなのTwitter履歴書 ~",
-    image: "/Users/dashi/pictures/twesume.png",
-    backend: ["Rails", "Heroku"],
-    frontend: ["jQuery", "Bootstrap", "html2canvas"],
-    description: "ポートフォリオでアピールするTwitter転職支援サービス")
-
   draftbox = Product.new(title: "DraftBox",
     image: "/Users/dashi/pictures/draftbox.png",
     backend: ["Rails", "Heroku"],
     frontend: ["jQuery", "Marked.js"],
     description: "オンラインMarkdownメモサービス")
 
-  products = [twesume, draftbox]
+  twesume = Product.new(title: "TWESUME ~ みんなのTwitter履歴書 ~",
+    image: "/Users/dashi/pictures/twesume.png",
+    backend: ["Rails", "Heroku"],
+    frontend: ["jQuery", "Bootstrap", "html2canvas"],
+    description: "ポートフォリオでアピールするTwitter転職支援サービス")
+  products = [draftbox, twesume]
 
   products.each do |product|
     product.display
