@@ -1,21 +1,120 @@
 const EditorData: Record<string, string> = {
-  profile: `class Person
-  attr_accessor: :name, :age, :skills
+  profile: `require "catpix"
 
-  def initialize(name, age, skills)
-    @name, @age, @skills = name, age, skills
+  class Person
+
+    attr_accessor :name,
+                  :age,
+                  :hobbies,
+                  :favorites,
+                  :skills,
+                  :message
+
+    def initialize(name, age)
+      @name = name
+      @age = age
+      @hobbies = []
+      @favorites = []
+      @skills = []
+      @message = ""
+    end
+
+    def introduction
+      divider = "=" * 50
+      text = <<-TEXT
+      #{divider}
+      #{profile_image}
+      NAME      : #{name}
+      AGE       : #{age}
+      FAVORITES : #{favorites}
+      HOBBIES   : #{hobbies}
+      MESSAGE   : #{message}
+
+      #{divider}
+
+      TEXT
+
+      puts text
+    end
+
+    def grow(years = 1)
+      self.age += years
+    end
+
+    private
+      def profile_image
+        Catpix::print_image '/Users/shun/pictures/profile.png',
+          limit_x: 0.5,
+          limit_y: 0,
+          resolution: "high"
+      end
   end
 
-  def greetings
-    "Hi! My name is #{name}."
-  end
+  # HISTORY
+  # -1989
+  me = Person.new("dashi", 0)
 
-  def profile
+  # -1999
+  me.grow(10)
+  me.favorites.push("家族")
+  me.favorites.push("ラーメン")
+  me.favorites.push("焼肉")
 
-  end
-end
+  # -2008
+  me.grow(9)
+  me.hobbies.push("ギター")
+  me.hobbies.push("ピアノ")
+
+  # -2017
+  me.grow(9)
+  me.hobbies.push("ゲーム開発")
+  me.favorites.push("プログラミング")
+
+  # -2018
+  me.grow
+  me.hobbies.push("Webアプリ開発")
+
+  # -2019
+  me.grow
+
+  # 自己紹介
+  me.introduction
+
 `,
-  skills: `skills code`,
+  skills: `
+  LANGUAGES = %i[HTML CSS Ruby Javascript Typescript jQuery React C# PHP]
+  FRAMEWORKS = %i[Rails Unity CakePHP]
+
+  skills = {
+    HTML: 7,
+    CSS: 7,
+    Ruby: 7,
+    Javascript: 6,
+    Typescript: 6,
+    React: 5,
+    jQuery: 4,
+    :"C#" => 4,
+    PHP: 4,
+    Rails: 6,
+    Unity: 4,
+    CakePHP: 2,
+  }
+
+  def skills_info(skills)
+    puts "Language   Level(1~10)"
+    LANGUAGES.each do |skill|
+      puts "#{skill}  : #{"+" * skills[skill]}"
+    end
+
+    puts "Framework   Level(1~10)"
+    FRAMEWORKS.each do |framework|
+      puts "#{framework}  : #{"+" * skills[framework]}"
+    end
+  end
+
+  skills_info(skills)
+
+  `,
   products: `require "catpix"
 
   class Product
@@ -30,11 +129,16 @@ end
     end
 
     def display
-      puts "title: #{@title}"
-      print_image
-      puts "backend: #{@backend}"
-      puts "frontend: #{@frontend}"
-      puts "description: #{@description}"
+      text = <<-TEXT
+      #{print_image}
+      title: #{@title}
+      url: #{@url}
+      backend: #{@backend}
+      frontend: #{@frontend}
+      description: #{@description}
+      TEXT
+
+      puts text
     end
 
     private
@@ -48,7 +152,6 @@ end
           bg_fill: true,
           resolution: "high"
       end
-
 
   end
 
@@ -71,7 +174,11 @@ end
   end
   `,
   blog: `blog code`,
-  contact: `contact code`,
+  contact: `divider = "=" * 50
+puts divider
+puts "お問い合わせは Twitterアカウント(@dashi296) のDMへお願いいたします。"
+puts divider
+`,
 };
 
 export default EditorData;

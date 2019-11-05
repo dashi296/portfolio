@@ -128,7 +128,7 @@ const TopNav: FC<TopNavProps> = ({
     <div className={classes.root}>
       <List aria-label="workspace-nav" style={{ padding: 0 }}>
         <ListItem button onClick={() => handleWSClick()}>
-          <ListItemText primary={<div className={classes.menuItemJPText}>エクスプローラー</div>} />
+          <ListItemText primary={<div className={classes.menuItemJPText}>メニュー</div>} />
         </ListItem>
         <ListItem button className={classes.wsMenuItem} onClick={() => handleWSClick()}>
           <ListItemIcon className={classes.icons}>

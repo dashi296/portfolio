@@ -16,7 +16,6 @@ const useStyles = makeStyles((theme: Theme) =>
       color: '#ffffff',
       backgroundColor: '#171717',
       height: '70vh',
-
       padding: '0 1em',
       borderTop: 'solid 1px #323232',
     },

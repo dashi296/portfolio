@@ -27,6 +27,12 @@ pre {
   height: 100px;
 }
 
+.product-img{
+  border-radius: 5%;
+  width:  250px;
+  height: auto;
+}
+
 /*プログラミング・フレームワークカラー*/
 .html{
   color: #E44B23;

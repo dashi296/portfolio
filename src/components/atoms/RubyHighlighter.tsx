@@ -11,7 +11,7 @@ const RubyHighlighter = (props: SyntaxHighlighterProps) => {
       style={vs2015}
       customStyle={{ display: 'flex', lineHeight: 1.5, backgroundColor: '#171717' }}
       wrapLines={true}
-      lineNumberContainerStyle={{ textAlign: 'right', paddingRight: 15 }}
+      lineNumberContainerStyle={{ textAlign: 'right', paddingRight: 15, width: 40 }}
       lineNumberStyle={{ color: '#727272' }}
     />
   );
