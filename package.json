@@ -29,7 +29,8 @@
     "react-syntax-highlighter": "^11.0.2",
     "react-typist": "^2.0.5",
     "redux": "^4.0.4",
-    "typescript": "3.5.2"
+    "typescript": "3.5.2",
+    "viewport-units-buggyfill": "^0.6.2"
   },
   "scripts": {
     "start": "react-scripts start",

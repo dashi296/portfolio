@@ -12348,6 +12348,11 @@ vfile@^4.0.0:
     unist-util-stringify-position "^2.0.0"
     vfile-message "^2.0.0"
 
+viewport-units-buggyfill@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/viewport-units-buggyfill/-/viewport-units-buggyfill-0.6.2.tgz#8b1ee8fb7afd06739460457657a61ba4fa38cbb1"
+  integrity sha512-43hFpRJFBH687vXTiL4FFGAypo7FPsfTRpyAcgFTZp4VFunutVbOVsBp1AVVLusuneVledSBy3IBh28spxNL7Q==
+
 vm-browserify@0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-0.0.4.tgz#5d7ea45bbef9e4a6ff65f95438e0a87c357d5a73"
