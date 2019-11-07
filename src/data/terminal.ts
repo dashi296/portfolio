@@ -41,18 +41,18 @@ const TerminalData: Record<string, string> = {
   products: `
   ==================================================
 
-  <a href="https://draftbox.herokuapp.com"><img class="product-img" src="./images/draftbox.png"></a>
+  <a target="_blank" rel="noopener noreferrer" href="https://draftbox.herokuapp.com"><img class="product-img" src="./images/draftbox.png"></a>
   title: <strong>DraftBox</strong>
-  url: <a class="terminal-link" href="https://draftbox.herokuapp.com/">https://draftbox.herokuapp.com/</a>
+  url: <a class="terminal-link" target="_blank" rel="noopener noreferrer" href="https://draftbox.herokuapp.com/">https://draftbox.herokuapp.com/</a>
   backend: [<span class="rails">"Rails"</span>, <span class="heroku">"Heroku"</span>]
   frontend: [<span class="jquery">"jQuery"</span>, "Marked.js"]
   description: オンラインMarkdownメモサービス
 
   --------------------------------------------------
 
-  <a href="https://twesumes.net"><img class="product-img" src="./images/twesume.png"></a>
+  <a target="_blank" rel="noopener noreferrer" href="https://twesumes.net"><img class="product-img" src="./images/twesume.png"></a>
   title: <strong>TWESUME ~ みんなのTwitter履歴書 ~</strong>
-  url: <a class="terminal-link" href="https://twesumes.net">https://twesumes.net/</a>
+  url: <a class="terminal-link" target="_blank" rel="noopener noreferrer" href="https://twesumes.net">https://twesumes.net/</a>
   backend: [<span class="rails">"Rails"</span>, <span class="heroku">"Heroku"</span>]
   frontend: [<span class="jquery">"jQuery"</span>, <span class="bootstrap">"Bootstrap"</span>, <span class="html2canvas">"html2canvas"</span>]
   description: ポートフォリオでアピールするTwitter転職支援サービス

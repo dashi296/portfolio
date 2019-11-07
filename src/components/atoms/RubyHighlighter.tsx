@@ -1,14 +1,15 @@
 import React from 'react';
 import SyntaxHighlighter, { SyntaxHighlighterProps } from 'react-syntax-highlighter';
-import { vs2015 } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+import { hybrid } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 const RubyHighlighter = (props: SyntaxHighlighterProps) => {
 
+  const highlightTheme = hybrid;
   return (
     <SyntaxHighlighter
       {...props}
       language="ruby"
-      style={vs2015}
+      style={highlightTheme}
       customStyle={{ display: 'flex', lineHeight: 1.5, backgroundColor: '#171717' }}
       wrapLines={true}
       lineNumberContainerStyle={{ textAlign: 'right', paddingRight: 15, width: 40 }}
