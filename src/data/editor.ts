@@ -21,7 +21,7 @@ const EditorData: Record<string, string> = {
 
     def introduction
       divider = "=" * 50
-      text = <<-TEXT
+      text = <<TEXT
       #{divider}
       #{profile_image}
       NAME      : #{name}
@@ -29,9 +29,7 @@ const EditorData: Record<string, string> = {
       FAVORITES : #{favorites}
       HOBBIES   : #{hobbies}
       MESSAGE   : #{message}
-
       #{divider}
-
       TEXT
 
       puts text

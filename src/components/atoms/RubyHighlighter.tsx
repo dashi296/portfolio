@@ -1,10 +1,10 @@
 import React from 'react';
 import SyntaxHighlighter, { SyntaxHighlighterProps } from 'react-syntax-highlighter';
-import { hybrid } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+import { monokaiSublime } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 const RubyHighlighter = (props: SyntaxHighlighterProps) => {
 
-  const highlightTheme = hybrid;
+  const highlightTheme = monokaiSublime;
   return (
     <SyntaxHighlighter
       {...props}
