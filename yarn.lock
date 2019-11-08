@@ -1240,6 +1240,13 @@
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
   integrity sha512-ce5d3q03Ex0sy4R14722Rmt6MT07Ua+k4FwDfdcToYJcMKNtRVQvJ6JCAPdAmAnbRb6CsX6aYb9m96NGod9uTw==
 
+"@types/react-div-100vh@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@types/react-div-100vh/-/react-div-100vh-0.3.0.tgz#3146b567304c6d9587f340fdb4b6e612596f07ad"
+  integrity sha512-ooouxtvbj+mP/OmdAh91+huVECechS2Svb55zTWMaRPXIG4XXL4+TESR7navmm6kvlnZRhDNb7/2qUOTrQm17g==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-dom@16.8.2":
   version "16.8.2"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.8.2.tgz#9bd7d33f908b243ff0692846ef36c81d4941ad12"
@@ -9827,6 +9834,11 @@ react-dev-utils@^7.0.3:
     strip-ansi "5.0.0"
     text-table "0.2.0"
 
+react-div-100vh@^0.3.4:
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/react-div-100vh/-/react-div-100vh-0.3.4.tgz#45507a121e71198d22e24b2b37710393bcf3501e"
+  integrity sha512-1OYEtmZydas/O4VD1tA3t1EgGG67ml9LnyuUTLjVU8CV3FFFq2HfFEMAAIaAUzjNqhuSZ8pV7IDOViUYQ7vjew==
+
 react-dom@^16.8.3:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.6.tgz#71d6303f631e8b0097f56165ef608f051ff6e10f"
@@ -12347,11 +12359,6 @@ vfile@^4.0.0:
     replace-ext "1.0.0"
     unist-util-stringify-position "^2.0.0"
     vfile-message "^2.0.0"
-
-viewport-units-buggyfill@^0.6.2:
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/viewport-units-buggyfill/-/viewport-units-buggyfill-0.6.2.tgz#8b1ee8fb7afd06739460457657a61ba4fa38cbb1"
-  integrity sha512-43hFpRJFBH687vXTiL4FFGAypo7FPsfTRpyAcgFTZp4VFunutVbOVsBp1AVVLusuneVledSBy3IBh28spxNL7Q==
 
 vm-browserify@0.0.4:
   version "0.0.4"
