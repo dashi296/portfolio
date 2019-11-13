@@ -6,10 +6,10 @@ const TerminalData: Record<string, string> = {
   NAME    : dashi
   AGE     : 30
   HOBBIES : Webアプリ開発、ゲーム開発、ギター、ピアノ
-  FAVORITE: 家族、プログラミング、ラーメン、焼肉、寿司
+  FAVORITE: 家族、プログラミング、ラーメン、サーモン
   MESSAGE :
   2017年2月頃から趣味でUnityでオンラインゲーム開発を始め、
-  開発が好きになる。
+  モノづくりが好きになる。
   2018年1月頃にWebアプリ開発に興味を持ち、Railsの勉強を始め、
   2018年11月に初めてWebアプリ
   『TWESUME ~みんなのTwitter履歴書~』をリリース。
@@ -72,7 +72,7 @@ const TerminalData: Record<string, string> = {
 
   お問い合わせは
 
-  <a href="https://twitter.com/dashi296">Twitterアカウント(@dashi296)</a>
+  <a class="terminal-link" href="https://twitter.com/dashi296">Twitterアカウント(@dashi296)</a>
 
   のDMへお願いいたします。
 
