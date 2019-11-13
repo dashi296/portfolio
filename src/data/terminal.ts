@@ -34,7 +34,8 @@ const TerminalData: Record<string, string> = {
   Framework     Level(1 ~ 10)
   <span class="rails">Rails</span>       : <span class="skill-val">++++++</span>
   <span class="unity">Unity</span>       : <span class="skill-val">++++</span>
-  <span class="php">cakePHP</span>     : <span class="skill-val">++</span>
+  <span class="php">FuelPHP</span>     : <span class="skill-val">++</span>
+  <span class="php">CakePHP</span>     : <span class="skill-val">+</span>
 
   ==================================================
   `,
@@ -69,10 +70,14 @@ const TerminalData: Record<string, string> = {
   contact: `
   ==================================================
 
-  お問い合わせは <a href="https://twitter.com/dashi296">Twitterアカウント(@dashi296)</a> のDMへお願いいたします。
+  お問い合わせは
+
+  <a href="https://twitter.com/dashi296">Twitterアカウント(@dashi296)</a>
+
+  のDMへお願いいたします。
 
   ==================================================
   `,
-}
+};
 
 export default TerminalData;

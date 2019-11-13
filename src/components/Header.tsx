@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme: Theme) =>
       alignItems: 'center',
     },
     buttons: {
-      display: 'flex'
+      display: 'flex',
     },
     title: {
       width: '100%',
@@ -23,30 +23,29 @@ const useStyles = makeStyles((theme: Theme) =>
       height: 10,
       borderRadius: '50%',
       margin: 3,
-    }
+    },
   }),
 );
 
-interface IRoundButtonProps {
+interface RoundButtonProps {
   color: string;
 }
 
-const RoundButton: FC<IRoundButtonProps> = ({
-  color,
-}) => {
+const RoundButton: FC<RoundButtonProps> = ({ color }) => {
   const classes = useStyles();
-  return (<div className={classes.roundButton} style={{ background: color }}></div>)
+
+  return (
+    <div className={classes.roundButton} style={{ background: color }}></div>
+  );
 };
 
-
-export interface IHeaderProps {
-  title?: string;
+export interface HeaderProps {
+  title: string;
 }
 
-const Header: FC<IHeaderProps> = ({
-  title,
-}) => {
+const Header: FC<HeaderProps> = ({ title }) => {
   const classes = useStyles();
+
   return (
     <div className={classes.root}>
       <div className={classes.buttons}>
@@ -55,10 +54,10 @@ const Header: FC<IHeaderProps> = ({
         <RoundButton color="#29C833" />
       </div>
       <div className={classes.title}>
-        {title ? title : "dashi\'s portfolio"}
+        {title ? `${title}.rb` : "dashi's portfolio"}
       </div>
     </div>
   );
-}
+};
 
 export default Header;
