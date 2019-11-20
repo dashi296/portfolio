@@ -6,7 +6,7 @@ const TerminalData: Record<string, string> = {
   NAME    : dashi
   AGE     : 30
   HOBBIES : Webアプリ開発、ゲーム開発、ギター、ピアノ
-  FAVORITE: 家族、プログラミング、ラーメン、サーモン
+  FAVORITE: 家族、プログラミング、ラーメン
   MESSAGE :
   2017年2月頃から趣味でUnityでオンラインゲーム開発を始め、
   モノづくりが好きになる。
@@ -15,7 +15,7 @@ const TerminalData: Record<string, string> = {
   『TWESUME ~みんなのTwitter履歴書~』をリリース。
   Rails・Unityエンジニアの高みを目指すマン。
 
-  家庭の事情によりリモートで働ける環境に転職が必要となり、
+  家庭の事情により、リモートで働ける環境に転職が必要となり
   絶賛転職活動中。
 
   ==================================================
