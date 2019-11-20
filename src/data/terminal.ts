@@ -13,7 +13,7 @@ const TerminalData: Record<string, string> = {
   2018年1月頃にWebアプリ開発に興味を持ち、Railsの勉強を始め、
   2018年11月に初めてWebアプリ
   『TWESUME ~みんなのTwitter履歴書~』をリリース。
-  Rails・Unityエンジニアの高みを目指すマン。
+  Web・Unityエンジニアの高みを目指すマン。
 
   家庭の事情により、リモートで働ける環境に転職が必要となり
   絶賛転職活動中。
