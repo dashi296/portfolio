@@ -13,7 +13,10 @@ const TerminalData: Record<string, string> = {
   2018年1月頃にWebアプリ開発に興味を持ち、Railsの勉強を始め、
   2018年11月に初めてWebアプリ
   『TWESUME ~みんなのTwitter履歴書~』をリリース。
-  Web・Unityエンジニアの高みを目指すマン。
+  Rails・Unityエンジニアの高みを目指すマン。
+
+  家庭の事情によりリモートで働ける環境に転職が必要となり、
+  絶賛転職活動中。
 
   ==================================================
   `,
@@ -47,16 +50,19 @@ const TerminalData: Record<string, string> = {
   url: <a class="terminal-link" target="_blank" rel="noopener noreferrer" href="https://draftbox.herokuapp.com/">https://draftbox.herokuapp.com/</a>
   backend: [<span class="rails">"Rails"</span>, <span class="heroku">"Heroku"</span>]
   frontend: [<span class="jquery">"jQuery"</span>, "Marked.js"]
-  description: オンラインMarkdownメモサービス
+  description: オンラインMarkdownメモサービス。
+                自分専用に開発したため、バグ多。
 
   --------------------------------------------------
 
   <a target="_blank" rel="noopener noreferrer" href="https://twesumes.net"><img class="product-img" src="./images/twesume.png"></a>
   title: <strong>TWESUME ~ みんなのTwitter履歴書 ~</strong>
   url: <a class="terminal-link" target="_blank" rel="noopener noreferrer" href="https://twesumes.net">https://twesumes.net/</a>
+  period: Oct 8, 2018 ->
   backend: [<span class="rails">"Rails"</span>, <span class="heroku">"Heroku"</span>]
   frontend: [<span class="jquery">"jQuery"</span>, <span class="bootstrap">"Bootstrap"</span>, <span class="html2canvas">"html2canvas"</span>]
-  description: ポートフォリオでアピールするTwitter転職支援サービス
+  description: ポートフォリオでアピールするTwitter転職支援サービス。
+                Twitter転職が流行っていたので開発。
 
   ==================================================
   `,
